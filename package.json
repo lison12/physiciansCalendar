@@ -1,0 +1,19 @@
+{
+  "name": "physicianscalendar",
+  "version": "1.0.0",
+  "description": "a way to review calendars of physicians",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgarciabengochea/physiciansCalendar.git"
+  },
+  "author": "Javi Garcia-Bengochea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgarciabengochea/physiciansCalendar/issues"
+  },
+  "homepage": "https://github.com/jgarciabengochea/physiciansCalendar#readme"
+}
