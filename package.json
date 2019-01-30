@@ -4,6 +4,8 @@
   "description": "a way to review calendars of physicians",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js -w",
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,21 @@
   "bugs": {
     "url": "https://github.com/jgarciabengochea/physiciansCalendar/issues"
   },
-  "homepage": "https://github.com/jgarciabengochea/physiciansCalendar#readme"
+  "homepage": "https://github.com/jgarciabengochea/physiciansCalendar#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.9",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
 }
